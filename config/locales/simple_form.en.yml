@@ -29,3 +29,8 @@ en:
     # prompts:
     #   defaults:
     #     age: 'Select your age'
+    placeholders:
+      product:
+        name: 'Nome'
+        description: 'Descrição'
+        price: 'Preço'

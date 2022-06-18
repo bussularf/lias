@@ -1,0 +1,41 @@
+.new {
+  display: flex;
+  justify-content: center;
+}
+.form-input {
+  display: inline-block;
+  padding: .9rem 1.5rem;
+  background: var(--bg-color-1);
+  border: 2px solid var(--bg-color-1);
+  width: 80%;
+  border-radius: 17px;
+  font-family: inherit;
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--heading-color);
+  outline: none;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.form-control{
+  border-radius: 17px;
+}
+
+.form-control:hover {
+  filter: brightness(97%);
+  border-color: var(--main-color-dark-1);
+}
+
+.form-control::placeholder {
+  font-family: inherit;
+  color: var(--text-color);
+}
+
+.text {
+  margin: 1rem 0;
+}
+
+textarea {
+  resize: none;
+  min-height: 170px;
+}
