@@ -18,6 +18,27 @@
   box-sizing: border-box;
 }
 
+:root {
+  --hue-1: 257;
+  --hue-2: 47;
+  --bg-color: hsl(var(--hue-1), 100%, 97%);
+  --main-color-1: #BD83CE;
+  --main-color-dark-1: hsl(var(--hue-1), 69%, 60%);
+  --main-color-2: #F58634;
+  --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
+  --section-padding: 7rem;
+}
+
+body {
+  --bg-color: hsl(var(--hue-1), 100%, 97%);
+  --bg-color-1: hsl(var(--hue-1), 100%, 95.5%);
+  --bg-color-2: #fff;
+  --bg-color-3: hsl(var(--hue-1), 100%, 98%);
+  --bg-color-transparent: rgba(255, 255, 255, 0.6);
+  --heading-color: hsl(var(--hue-1), 61%, 24%);
+  --text-color: hsl(var(--hue-1), 17%, 63%);
+}
+
 a {
   text-decoration: none;
 }
@@ -26,7 +47,6 @@ body {
   overflow-x: hidden;
   background-color: var(--bg-color);
   font-family: 'Poppins', sans-serif;
-  transition: .3s background-color;
 }
 
 .container {
