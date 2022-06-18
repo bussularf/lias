@@ -5,6 +5,7 @@
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+  display: flex;
 }
 
 .logo {
@@ -20,4 +21,8 @@
 
 .logo span {
   color: var(--main-color-1);
+}
+
+.inline {
+  display: flex;
 }
