@@ -1,3 +1,14 @@
-  <% @products.each do |product| %>
-  <%=product.name%>
-  <% end %>
+<div class="container">
+  <div class="card-field">
+    <% @products.each do |product| %>
+      <div class="card-product">
+        <div class="card-image"></div>
+        <div class="card-info">
+          <%=product.name%>
+          <%=product.description%>
+          <%=product.price%>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

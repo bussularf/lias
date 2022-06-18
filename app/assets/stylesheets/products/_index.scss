@@ -1,1 +1,10 @@
 @import "new";
+
+.card-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-product {
+  display: grid;
+}

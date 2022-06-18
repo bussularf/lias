@@ -7,23 +7,24 @@
   padding: .9rem 1.5rem;
   background: var(--bg-color-1);
   border: 2px solid var(--bg-color-1);
-  width: 80%;
+  width: 70%;
   border-radius: 17px;
-  font-family: inherit;
-  font-size: .85rem;
-  font-weight: 500;
-  color: var(--heading-color);
   outline: none;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .form-control{
+  color: var(--heading-color);
   border-radius: 17px;
+  font-family: inherit !important;
+  font-size: .85rem !important;
+  font-weight: 500 !important;
 }
 
 .form-control:hover {
   filter: brightness(97%);
   border-color: var(--main-color-dark-1);
+  color: var(--heading-color);
 }
 
 .form-control::placeholder {
@@ -38,4 +39,8 @@
 textarea {
   resize: none;
   min-height: 170px;
+  color: var(--heading-color);
+  font-family: 'Poppins', sans-serif !important;
+  font-size: .85rem !important;
+  font-weight: 500 !important;
 }

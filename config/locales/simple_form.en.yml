@@ -33,4 +33,4 @@ en:
       product:
         name: 'Nome'
         description: 'Descrição'
-        price: 'Preço'
+        price: 'R$'
